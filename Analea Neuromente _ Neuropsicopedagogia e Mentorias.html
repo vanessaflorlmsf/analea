@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Analea Neuromente | Neuropsicopedagogia e Mentorias</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Nunito:wght@400;600;700&display=swap">
+<style>
+:root{--bg:#f7f4fb;--card:#fff;--ink:#2b2540;--mute:#6a6382;--pri:#6b4fbb;--pri2:#8e74d6;--acc:#2fb3a3;--warm:#ffb89e;--soft:#ece6f8;--line:#e3dcf1;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17132a;--card:#221c3a;--ink:#f1edfb;--mute:#b4acd0;--pri:#a48bf0;--pri2:#8e74d6;--acc:#4cd0bf;--warm:#ffb89e;--soft:#2c2548;--line:#3a3160;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#17132a;--card:#221c3a;--ink:#f1edfb;--mute:#b4acd0;--pri:#a48bf0;--pri2:#8e74d6;--acc:#4cd0bf;--warm:#ffb89e;--soft:#2c2548;--line:#3a3160;color-scheme:dark}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{background:var(--bg);color:var(--ink);font-family:Nunito,system-ui,sans-serif;line-height:1.6;font-size:17px;padding-bottom:84px}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.2}
+section{padding:48px 20px;max-width:720px;margin:auto}
+h2{font-size:1.7rem;margin-bottom:8px;text-align:center}
+.sub{text-align:center;color:var(--mute);margin-bottom:28px}
+.hero{text-align:center;padding:56px 20px 44px;background:linear-gradient(160deg,var(--soft),var(--bg));max-width:none}
+.hero>div{max-width:720px;margin:auto}
+.badge{display:inline-block;background:var(--card);border:1px solid var(--line);color:var(--pri);font-weight:700;font-size:.85rem;padding:6px 14px;border-radius:99px;margin-bottom:18px}
+.hero h1{font-size:2.1rem;margin-bottom:14px}
+.hero h1 span{color:var(--pri)}
+.hero p{color:var(--mute);margin-bottom:26px}
+.btn{display:inline-block;background:var(--pri);color:#fff;text-decoration:none;font-weight:700;padding:15px 28px;border-radius:99px;box-shadow:0 6px 18px rgba(107,79,187,.3);border:0;font-size:1rem;font-family:inherit}
+.btn.alt{background:var(--card);color:var(--pri);border:2px solid var(--pri);box-shadow:none;margin-top:10px}
+.grid{display:grid;gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px}
+.card .ic{font-size:1.7rem;margin-bottom:6px}
+.card h3{font-size:1.15rem;margin-bottom:6px}
+.card p{color:var(--mute);font-size:.97rem}
+.pk{position:relative}
+.pk.top{border:2px solid var(--pri)}
+.tag{position:absolute;top:-12px;left:20px;background:var(--acc);color:#052b26;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:99px}
+.pk ul{list-style:none;padding:0;margin:12px 0 18px}
+.pk li{padding:5px 0 5px 26px;position:relative;font-size:.97rem}
+.pk li::before{content:"✓";position:absolute;left:0;color:var(--acc);font-weight:700}
+.pk .btn{width:100%;text-align:center}
+.steps{counter-reset:s}
+.step{display:flex;gap:14px;align-items:flex-start}
+.step::before{counter-increment:s;content:counter(s);flex:none;width:38px;height:38px;border-radius:50%;background:var(--warm);color:#4a2415;font-weight:700;display:grid;place-items:center}
+.step h3{font-size:1.05rem}
+.step p{color:var(--mute);font-size:.95rem}
+details{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;margin-bottom:10px}
+summary{font-weight:700;cursor:pointer}
+details p{margin-top:8px;color:var(--mute)}
+.about{display:flex;flex-direction:column;gap:14px;align-items:center;text-align:center}
+.avatar{width:110px;height:110px;border-radius:50%;background:linear-gradient(135deg,var(--pri),var(--acc));display:grid;place-items:center;font-size:3rem}
+.cta{background:linear-gradient(135deg,var(--pri),var(--pri2));color:#fff;border-radius:26px;text-align:center;padding:36px 22px;margin:0 20px 40px;max-width:680px}
+.cta h2{color:#fff}
+.cta p{opacity:.92;margin-bottom:20px}
+.cta .btn{background:#fff;color:#4b36a0;box-shadow:none}
+footer{text-align:center;color:var(--mute);font-size:.85rem;padding:10px 20px 30px}
+.fab{position:fixed;left:16px;right:16px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:20;display:flex;justify-content:center}
+.fab a{background:#25a85a;color:#fff;text-decoration:none;font-weight:700;padding:14px 24px;border-radius:99px;box-shadow:0 8px 22px rgba(0,0,0,.25);width:100%;max-width:420px;text-align:center}
+@media(min-width:700px){.grid.c3{grid-template-columns:repeat(3,1fr)}.grid.c2{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:2.8rem}section{max-width:960px}}
+</style>
+</head>
+<body>
+
+<section class="hero"><div>
+  <span class="badge">🧠 Neuropsicopedagoga · Atendimentos e Mentorias</span>
+  <h1>Eu ajudo você a entender o seu cérebro e <span>transformar isso em resultado</span></h1>
+  <p>Do atendimento individual à mentoria: um caminho claro, com ciência e acolhimento, para aprender melhor, focar mais e evoluir com segurança.</p>
+  <a class="btn" href="#mentoria">Conhecer a mentoria</a><br>
+  <a class="btn alt" href="#pacotes">Ver atendimentos</a><br>
+  <a class="btn alt" data-wa="Olá! Vim pelo site e quero saber mais sobre os atendimentos.">Falar no WhatsApp</a>
+</div></section>
+
+<section>
+  <h2>Como posso te ajudar</h2>
+  <p class="sub">Atendimentos pensados para cada fase da vida</p>
+  <div class="grid c3">
+    <div class="card"><div class="ic">👧</div><h3>Crianças e adolescentes</h3><p>Dificuldades de aprendizagem, atenção, leitura, escrita e rotina de estudos.</p></div>
+    <div class="card"><div class="ic">🧑‍💼</div><h3>Adultos</h3><p>Foco, memória, organização e desenvolvimento cognitivo para a vida e o trabalho.</p></div>
+    <div class="card"><div class="ic">🏫</div><h3>Pais e escolas</h3><p>Orientação prática para apoiar quem aprende em casa e na sala de aula.</p></div>
+  </div>
+</section>
+
+<section id="pacotes">
+  <h2>Pacotes e atendimentos</h2>
+  <p class="sub">Escolha o formato ideal. Os valores são combinados no WhatsApp.</p>
+  <div class="grid c3">
+    <div class="card pk">
+      <h3>Avaliação inicial</h3><p>Entender o perfil e o que precisa de apoio.</p>
+      <ul><li>Entrevista e observação</li><li>Avaliação neuropsicopedagógica</li><li>Devolutiva com orientações</li></ul>
+      <a class="btn" data-wa="Olá! Tenho interesse na Avaliação inicial.">Quero agendar</a>
+    </div>
+    <div class="card pk top">
+      <span class="tag">Mais procurado</span>
+      <h3>Acompanhamento mensal</h3><p>Sessões regulares com plano personalizado.</p>
+      <ul><li>Sessões semanais</li><li>Plano de intervenção individual</li><li>Relatório de evolução</li><li>Suporte pelo WhatsApp</li></ul>
+      <a class="btn" data-wa="Olá! Tenho interesse no Acompanhamento mensal.">Quero começar</a>
+    </div>
+    <div class="card pk">
+      <h3>Mentoria</h3><p>Para profissionais e estudantes que querem resultado.</p>
+      <ul><li>Encontros individuais ou em grupo</li><li>Estratégias de foco e aprendizagem</li><li>Material de apoio</li></ul>
+      <a class="btn" data-wa="Olá! Tenho interesse na Mentoria.">Quero saber mais</a>
+    </div>
+  </div>
+</section>
+
+<section id="mentoria">
+  <h2>Mentoria Neuromente</h2>
+  <p class="sub">Para quem quer ir além do atendimento e ter método, direção e acompanhamento</p>
+  <div class="grid c2">
+    <div class="card"><h3>Para quem é</h3><p>Profissionais, estudantes e pais que sentem que sabem o que fazer, mas não conseguem manter foco, rotina e constância.</p></div>
+    <div class="card"><h3>A transformação</h3><p>Sair da confusão e da sobrecarga para uma rotina de aprendizagem clara, com estratégias que funcionam para o seu cérebro.</p></div>
+    <div class="card"><h3>O que você recebe</h3><p>Diagnóstico do seu perfil de aprendizagem, plano personalizado, encontros de acompanhamento e material de apoio.</p></div>
+    <div class="card"><h3>Por que comigo</h3><p>Ciência do cérebro explicada de forma simples, com foco em prática e resultado, sem fórmulas prontas.</p></div>
+  </div>
+  <p style="text-align:center;margin-top:22px"><a class="btn" data-wa="Olá! Quero saber mais sobre a Mentoria Neuromente.">Quero saber da mentoria</a></p>
+</section>
+
+<section>
+  <h2>Como funciona</h2>
+  <p class="sub">Simples, do primeiro contato ao resultado</p>
+  <div class="grid steps">
+    <div class="step"><div><h3>Você chama no WhatsApp</h3><p>Conta rapidinho sua necessidade.</p></div></div>
+    <div class="step"><div><h3>Conversa e avaliação</h3><p>Entendemos o seu caso com cuidado.</p></div></div>
+    <div class="step"><div><h3>Plano personalizado</h3><p>Você recebe um caminho claro para seguir.</p></div></div>
+    <div class="step"><div><h3>Acompanhamento</h3><p>Evolução medida e celebrada a cada etapa.</p></div></div>
+  </div>
+</section>
+
+<section>
+  <div class="card about">
+    <div class="avatar">🧠</div>
+    <h2 style="margin:0">Quem é a Analea</h2>
+    <p>Neuropsicopedagoga que une ciência e acolhimento para explicar o aprendizado de um jeito simples. Seu trabalho é ajudar cada pessoa a entender como pensa, aprende e se desenvolve.</p>
+    <a class="btn alt" href="https://www.instagram.com/analeaneuromente/" target="_blank" rel="noopener">Seguir no Instagram</a>
+  </div>
+</section>
+
+<section>
+  <h2>Perguntas frequentes</h2>
+  <p class="sub">&nbsp;</p>
+  <details><summary>O atendimento é online ou presencial?</summary><p>Fale comigo no WhatsApp para ver as opções disponíveis para você.</p></details>
+  <details><summary>Para quem são as mentorias?</summary><p>Para profissionais, estudantes e pais que querem estratégias práticas de aprendizagem, foco e desenvolvimento.</p></details>
+  <details><summary>Como faço para começar?</summary><p>É só tocar em “Falar no WhatsApp”. Respondo com os próximos passos.</p></details>
+</section>
+
+<div class="cta">
+  <h2>Vamos começar a sua jornada?</h2>
+  <p>Dê o primeiro passo hoje. Sem compromisso.</p>
+  <a class="btn" data-wa="Olá! Quero começar meu atendimento.">Chamar no WhatsApp</a>
+</div>
+
+<footer>© Analea Neuromente · Neuropsicopedagogia</footer>
+
+<div class="fab"><a data-wa="Olá! Vim pelo site e quero saber mais." href="#">💬 Falar no WhatsApp</a></div>
+
+<script>
+// Troque pelo número com DDI + DDD, só dígitos. Ex.: 5585999999999
+var WHATSAPP = "5500000000000";
+document.querySelectorAll("[data-wa]").forEach(function(a){
+  a.href = "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(a.getAttribute("data-wa"));
+  a.target = "_blank"; a.rel = "noopener";
+});
+</script>
+</body>
+</html>
